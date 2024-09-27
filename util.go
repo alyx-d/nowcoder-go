@@ -67,3 +67,11 @@ func (root *ListNode) ToString() string {
 	res += "}"
 	return res
 }
+
+type Plus interface {
+	Add() Plus
+}
+
+func Add[T int | float32 | float64](a, b T) T {
+	return a + b
+}
