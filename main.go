@@ -5,6 +5,5 @@ import (
 )
 
 func main() {
-	grid := make([][]int, 3)
-	fmt.Println(grid)
+	fmt.Println(Bm86Solve("1", "99"))
 }
