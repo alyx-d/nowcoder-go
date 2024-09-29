@@ -18,11 +18,11 @@ func isNum(c byte) bool {
 }
 
 func isLowerLetter(c byte) bool {
-	return c >= 'a' && c <= 'z'
+	return c >= 'a' && c <= 'f'
 }
 
 func isUpperLetter(c byte) bool {
-	return c >= 'A' && c <= 'Z'
+	return c >= 'A' && c <= 'F'
 }
 
 func isIPv4(s string) bool {
