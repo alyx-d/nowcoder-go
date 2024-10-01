@@ -8,6 +8,9 @@ import (
 	"strings"
 )
 
+type Interval struct {
+	Start, End int
+}
 type ListNode struct {
 	Val  int
 	Next *ListNode
